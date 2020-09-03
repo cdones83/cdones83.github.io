@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Blog_0"
-date:   2020-09-03 4:14:38 -0700
-categories: jekyll update
----
-This is Blog_0 for CIT480 TuTh class. I am a currently a student and while I may not be an expert at what I do juts yet, I hope that what I put here will still be of use to anyone who may be struggling with the same issues that I have had.
