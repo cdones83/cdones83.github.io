@@ -2,9 +2,15 @@
 layout: post
 title:  "Blog_0"
 date:   2020-09-03 4:25:38 -0700
-categories: jekyll update
+categories: virtual machine ubuntu
 ---
 This is the first of many blogs for CIT480. I am a student and I hope to improve my understanding of the
 materials of this class by creating these weekly blogs. Should anyone be reading this, I hope that the
 information on these pages will be of some use to you in helping you reslove any problems that you may 
 run across.
+
+For this Blog_0 I will be going over how to create a virtual machine that runs on Ubuntu.
+
+For starters, you will need to make sure that your machine has the option to run Virtual Machines enabled.
+In my case, I just recently built the computer that I am using and was not able to begin using virtual
+machines until I enabled them in the BIOS.
