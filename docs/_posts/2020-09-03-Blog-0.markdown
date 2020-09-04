@@ -19,4 +19,39 @@ was under the Advanced tab. I switched SVM mode to enabled for my machine. You m
 and I suggest looking up which setting you may have to enable to continue.
 
 Once that is done, you will need the application to run a virtual machine. I will be explaining how to set
-up a VM using [Oracle VirtualBox](https://www.virtualbox.org/).
+up a VM using [Oracle VirtualBox](https://www.virtualbox.org/). After installing the latest version from
+that link, you will now need to get your OS.
+
+Ubuntu is a free OS that you can find at [ubuntu.com](https://ubuntu.com/download/desktop). Unlike Windows
+or Mac you do not have to pay for this OS. You can still create a virtual machine that uses Windows or Mac
+OS X, however the ordeal of finding copies of them for free may take you to some questionable places on the
+internet.
+
+Now we have everything we need to make a VM. Start up Virtualbox and toward the top center you'll see an icon
+and the word New. Hit that and a pop up window will appear. You can name the virtual machine whatever you
+want and leave the machine folder alone. For type and version you can actually select whatever you want. Those
+two only effect the icon you'll see to the right. It's more for the convenience of being able to remember
+which machine is running what OS should you start creating multiple. In our case we can choose Linux for the 
+type and scroll down in version to find Ubuntu.
+
+Next it will allow ask you allocate some memory from RAM. You can't give the VM more memory than what your
+computer has. Also if you give it to much memory it could negatively affect the performance of your PC every
+time you open up the VM. However give it to little memory and it may not run so well. Whatever you choose to
+give it, don't worry to much beacause this setting can always be adjusted later on even after the VM is created.
+
+Lastly it will ask you to select a virtual hard disk. Since we are making a basic VM you can select the create
+a virtual hard disk now option. A new window will then pop up and you can keep everything the same. Just keep
+selecting next until you finally create the machine.
+
+Now all that's left is to turn on the machine. When you do the first window that will pop up will act as your
+VM's monitor. Then a second smaller window will pop up asking you to select a starting disk. That is the copy
+of Ubuntu that we downloaded earlier. Assuming you didn't change where it was saved it should be in your
+download folder. Select it, hit continue, and your VM will start the setup process like a real machine
+installing an OS for the first time. Your free to choose how you want to set it up at this point. Once your
+done selecting whatever options feel right to you, your VM will finish installing the OS. From there it should
+restart and ask you to remove the start disk. Simply close your VM and it should remove itself. If it does not
+or you would like to check, select you newly created machine and hit the settings tab in the top center where
+new was. Go down to storage and Controller: IDE should be empty.
+
+That's all there is to it. You have successfully made a virtual machine. Hope this blog has helped you and
+good luck with your next project.
