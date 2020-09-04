@@ -13,4 +13,10 @@ For this Blog_0 I will be going over how to create a virtual machine that runs o
 
 For starters, you will need to make sure that your machine has the option to run Virtual Machines enabled.
 In my case, I just recently built the computer that I am using and was not able to begin using virtual
-machines until I enabled them in the BIOS.
+machines until I enabled them in the BIOS. Upon starting your computer you will need to press a key, (in
+most cases) F2, to enter the BIOS. Once inside you will need to navigate to CPU Configuration. For me it
+was under the Advanced tab. I switched SVM mode to enabled for my machine. You may have different options
+and I suggest looking up which setting you may have to enable to continue.
+
+Once that is done, you will need the application to run a virtual machine. I will be explaining how to set
+up a VM using [Oracle VirtualBox](https://www.virtualbox.org/).
