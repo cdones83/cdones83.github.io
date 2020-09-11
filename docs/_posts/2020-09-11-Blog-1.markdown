@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Blog_0"
+date:   2020-09-03 4:25:38 -0700
+categories: virtual machine ubuntu
+---
+hello
