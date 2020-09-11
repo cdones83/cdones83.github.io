@@ -4,4 +4,24 @@ title:  "Blog_1"
 date:   2020-09-11 1:12:38 -0700
 categories: virtual machine ubuntu LAMP cit480 blog
 ---
-hello
+Welcome to Blog_1! Just to recap from the previous blog, we set up a virtual machine on our computers
+that uses Ubuntu as our operating system (OS). In this blog I will be going over how to set up a LAMP.
+
+So what does LAMP stand for? Linux, Apache, MySQL, and PHP. LAMP is an open source web development
+platform. Each letter in LAMP constitutes one of its layers and it is often referred to as a LAMP stack.
+Linux is the OS, Apache acts as the web server, MySQL is the database, and PHP is the scripting language.
+Luckily for us, we already have Linux for our OS in the form of Ubuntu. Meaning three more layers to go
+until we have a complete stack!
+
+So let's start with what we will need to make this all happen. For downloading everything that we will
+need to get this LAMP stack running, we will need to open up our terminal. This can be done by clicking
+on the icon in the bottom left of the screen. Once selected it will open up the apps that your current
+virtual machine contains. Either look through the apps to find Terminal or simply type it in the search
+bar. Once it's open we are ready to begin.
+
+Let's get Apache, specifically we will be downloading and installing Apache2. in the terminal type the
+command:
+
+apt-get install apache2
+
+
