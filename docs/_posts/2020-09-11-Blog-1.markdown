@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Blog_0"
-date:   2020-09-03 4:25:38 -0700
-categories: virtual machine ubuntu
+title:  "Blog_1"
+date:   2020-09-11 1:12:38 -0700
+categories: virtual machine ubuntu LAMP cit480 blog
 ---
 hello
