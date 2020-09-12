@@ -19,9 +19,94 @@ on the icon in the bottom left of the screen. Once selected it will open up the 
 virtual machine contains. Either look through the apps to find Terminal or simply type it in the search
 bar. Once it's open we are ready to begin.
 
-Let's get Apache, specifically we will be downloading and installing Apache2. in the terminal type the
+Let's get Apache, specifically we will be downloading and installing Apache2. In the terminal type the
 command:
 
 apt-get install apache2
 
+Once that is done, check if it is installed correctly by using the command:
 
+apache2 -v
+
+If it has installed correctly go ahead and check the status. When installed, Apache should not be
+running. Use the command:
+
+service apache2 status
+
+This command will output whether or not it is running. As previously mentioned it should say that it is
+not. Let's start it up. The command this time is:
+
+service apache2 start
+
+Now apache is running. If you wanna double check to make sure that it is running, simply re-input the
+status command from earlier.
+
+Once it's up and running go ahead and open your web browser. If Apache is running correctly you should
+be able to type in the url: 
+
+localhost:8080
+
+This will take you to the default webpage hosted by Apache. With that we have finished making installing
+all we need for Apache.
+
+Now we will install MySQL. This will be fast and simple. The command this time is:
+
+apt-get install -y mysql-client
+
+If you noticed, this time we typed in "-y" when we used apt-get. With this added onto it, we will
+automatically proceed with the download with having to give any user input of yes or no. It passes on Y
+for the command prompt goes straight to installing. Now all we need to do is verify we installed it all
+correctly. Use this command:
+
+dpkg --get-selections | grep mysql
+
+What follows should be an output that lists parts of MySQL that were downloaded followed by whether or 
+not they have been installed. If they all say "install" then we are done! On to the last part.
+
+Now for PHP. PHP is what we use to write scripts for the web pages. First lets make sure the packages are
+up to date. Type in the command: 
+
+apt-get update
+
+Once that it is done we can now install the latest PHP. Now use the command:
+
+apt-get install php libapache2-mod-php
+
+It will ask you for Geolocation as well as timezone when installing. Follow the instructions and choose
+what applies to you. Now we can test if it is working. You can use any editer you like but in this blog,
+I will be using nano. With nano, use the command:
+
+nano /etc/apache2/mods-enabled/dir.conf
+
+Where it says DirectoryIndex and then begins listing a bunch of index files, add:
+
+index.php
+
+It can go right after DirectoryIndex and before index.html. Save the file now and exit.
+
+Now we're going to make a info.php file. Type in:
+
+nano /var/www/html/info.php
+
+This file will be blank because we just created it. Not type the following:
+
+<?php
+php.info();
+?>
+
+When that is done, save and close the file. In order for the everything tot ake effect we to restart
+Apache with:
+
+service apache2 restart
+
+We can verify if the restart was successful using the status command from earlier. Now go back
+into your web browser and type in:
+
+localhost:8080/info.php
+
+You will be taken to a page listing you PHP version as well as some other information. This means
+everything is running as planned.
+
+You completed a LAMP stack! There are more things to do if you wanted to get it officially up and
+running, but with this you have a basic LAMP installation. Hope this guide helped and I will see you next
+week!
