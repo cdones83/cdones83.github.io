@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog_3"
-date:   2020-09-11 1:12:38 -0700
+date:   2020-09-25 9:49:38 -0700
 categories: jekyll image blog
 ---
 Hi! Today we will be working on making these blogs seem more professional. So how do we do that? Good
@@ -21,4 +21,4 @@ have your own puppy? So you take a pic and put it in a folder but it doesn't hav
 internet supposed to begin their worshipping? Never fear, I will cover that. The solution is a popular
 site called imgur.
 
-![imgur logo](https://www.google.com/imgres?imgurl=https%3A%2F%2Fs.imgur.com%2Fimages%2Flogo-1200-630.jpg%3F2&imgrefurl=https%3A%2F%2Fimgur.com%2F&tbnid=sCoV1d6BeZwD4M&vet=12ahUKEwiEptPfgYbsAhXGFTQIHTr7BCIQMygCegUIARCDAQ..i&docid=89NdBjt3A6mXCM&w=1200&h=630&q=imgur&client=ubuntu&ved=2ahUKEwiEptPfgYbsAhXGFTQIHTr7BCIQMygCegUIARCDAQ)
+![imgur logo](https://imgur.com/a/yB9SK04)
