@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Blog_3"
+date:   2020-09-11 1:12:38 -0700
+categories: jekyll image blog
+---
+Hi! Today we will be working on making these blogs seem more professional. So how do we do that? Good
+question! For one, we should add more pictures. I bet you looked at my last couple of posts and thought:
+"Wow, this would be great with pictures!" Your are correct. Instead of adding in pictures to those
+previous blogs however, I'd like them to stay as they are and show a gradual progression of me getting
+better at making these. So with that being said, let's get into it!
+
+If you have been following along with me on this tiny journey you should know by now that I am using
+a virtual machine running Ubuntu. It also happens to be hosting this blog. It's my first time doing this
+but maybe there are other people in a similar situation to me who need to know how to post pictures on a
+jekyll blog post. I did a little bit of research, and here's what I've learned. We can definitely post
+pictures on this blog. I know, pretty exciting stuff. They require URLs. What does that mean? Let's say
+say you found a picture of a puppy on the internet and you wanted to put it in this post. Well, since
+another site is hosting that picture you can copy the link to it and you would be all set. But what if you
+have your own puppy? So you take a pic and put it in a folder but it doesn't have a link? How is the
+internet supposed to begin their worshipping? Never fear, I will cover that. The solution is a popular
+site called imgur.
+
+![imgur logo](https://www.google.com/imgres?imgurl=https%3A%2F%2Fs.imgur.com%2Fimages%2Flogo-1200-630.jpg%3F2&imgrefurl=https%3A%2F%2Fimgur.com%2F&tbnid=sCoV1d6BeZwD4M&vet=12ahUKEwiEptPfgYbsAhXGFTQIHTr7BCIQMygCegUIARCDAQ..i&docid=89NdBjt3A6mXCM&w=1200&h=630&q=imgur&client=ubuntu&ved=2ahUKEwiEptPfgYbsAhXGFTQIHTr7BCIQMygCegUIARCDAQ)
