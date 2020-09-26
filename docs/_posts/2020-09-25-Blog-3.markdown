@@ -30,3 +30,12 @@ your keyboard (usually). Once you got that you can go onto [imgur.com](https://i
 click the add a new post button int he top left.
 
 ![post button](https://i.imgur.com/fRg7I7E.png)
+
+You don't need to add a tag or anything. Just hover over the picture and in the top right three dots will
+appear. Click on it and a dropdown menu will open up. Select get share links. This will open a few
+different links. What we need is the BBcode. Copy that link and your good to go.
+
+Finally we can post a picture! What we need is the proper syntax:
+{% highlight markdown %}
+![image name](URL for image)
+{% endhighlight %}
