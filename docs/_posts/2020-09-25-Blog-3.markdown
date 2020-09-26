@@ -39,3 +39,10 @@ Finally we can post a picture! What we need is the proper syntax:
 {% highlight markdown %}
 ![image name](URL for image)
 {% endhighlight %}
+
+The ! starts us off and the name of the picture is put within the brackets incase the image fails to load.
+Within the paranthesis goes the URL we copied off imgur. Since we copied the BBcode it will still include
+the img tags. Simply delete those and you have your URL for the image all set to make a picture.
+
+There you have it. You now know how to post images in markdown. I hope this helped and I will see you
+next time!
