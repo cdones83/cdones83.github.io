@@ -22,3 +22,11 @@ internet supposed to begin their worshipping? Never fear, I will cover that. The
 site called imgur.
 
 ![imgur logo](https://i.imgur.com/PfTbNuC.png)
+
+Imgur is a popular site where people can posts pictures anonymously. Perfect for us! If you take a
+screenshot of something it will be saved into your pictures folder on Ubuntu. If you don't know how to 
+take a screen shot simply hit the printscreen button on your keyboard located in the upper right row of
+your keyboard (usually). Once you got that you can go onto [imgur.com](https://imgur.com/) and simply
+click the add a new post button int he top left.
+
+![post button](https://i.imgur.com/fRg7I7E.png)
