@@ -26,12 +26,10 @@ You can even highlight this way. Just like how we specified the language we used
 we can add on the language we are using at the end of the first set of backticks to highlight the code
 being used.
 
-```
 ```json
 {
   "firstName": "John",
   "lastName": "Doe",
   "age": 25
 }
-```
 ```
