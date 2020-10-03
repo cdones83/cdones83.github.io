@@ -14,4 +14,7 @@ denoted by the first set of brackets and where it ends by the second set. The fi
 the language your are writing in.
 
 I learned how to do that last week and this week I have learned more ways. You can also create what is
-called Fenced Code Blocks using the three backticks (```).
+called Fenced Code Blocks using the three backticks (```) or three tildas(~~~).
+```
+This is an example
+```
