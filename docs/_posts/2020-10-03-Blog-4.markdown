@@ -9,6 +9,10 @@ talking about how to post pictures in the jekyll blogs.
 
 ![Last week's code](https://i.imgur.com/BvsTOFt.png)
 
+And this was the output:
+
+![Code Output](https://i.imgur.com/mBdlHkF.png)
+
 The image above shows how to do highlights. Basically with highlights you choose where it starts
 denoted by the first set of brackets and where it ends by the second set. The first set also has you input
 the language your are writing in.
@@ -17,4 +21,17 @@ I learned how to do that last week and this week I have learned more ways. You c
 called Fenced Code Blocks using the three backticks (```) or three tildas(~~~).
 ```
 This is an example
+```
+You can even highlight this way. Just like how we specified the language we used when using the brackets,
+we can add on the language we are using at the end of the first set of backticks to highlight the code
+being used.
+
+```
+```json
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 25
+}
+```
 ```
