@@ -2,7 +2,7 @@
 layout: post
 title:  "Blog_4"
 date:   2020-10-02 6:17:38 -0700
-categories: virtual machine ubuntu
+categories: virtual machine ubuntu markdown highlight syntax
 ---
 Welcome back! Today were gonna go over showing off code in our blog posts. Last week I did this when
 talking about how to post pictures in the jekyll blogs.
@@ -33,3 +33,6 @@ being used.
   "age": 25
 }
 ```
+So there you have it! More ways to highlight code. Next week I'll try talking about Dockerfile and I'll
+be using these new methods to better show what is going on. Sorry it's so short this week but I hope this
+helped anyone looking to learn how to highligh their code. I'll see ya next time.
