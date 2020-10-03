@@ -8,3 +8,10 @@ Welcome back! Today were gonna go over showing off code in our blog posts. Last 
 talking about how to post pictures in the jekyll blogs.
 
 ![Last week's code](https://i.imgur.com/BvsTOFt.png)
+
+The image above shows how to do highlights. Basically with highlights you choose where it starts
+denoted by the first set of brackets and where it ends by the second set. The first set also has you input
+the language your are writing in.
+
+I learned how to do that last week and this week I have learned more ways. You can also create what is
+called Fenced Code Blocks using the three backticks (```).
