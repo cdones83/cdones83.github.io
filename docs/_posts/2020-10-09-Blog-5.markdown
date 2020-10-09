@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Blog_5"
+date:   2020-10-09 4:27:38 -0700
+categories: virtual machine ubuntu docker Dockerfile
+---
+
+Welcome back! This is Blog_5 and this week I will be talking about docker and Dockerfiles. So what is
+docker and what can we do with it? Docker is an application that lets us create containers that have
+everything we need to run other applications. In a way it's almost like the virtual machine I am currently
+using to create these posts. We take an image of what we want, and in this case an image refers to what
+the container will have already downloaded on to it for us to begin using it. There are presets we can
+call on or we can make our very own with what are called Dockerfiles. They contain the base OS image for
+the container to install and we put in ourn own commands to install any other application or software
+we might want when we build the container.
+
+Let's get started with installing docker. Luckily for us we can use a pre-installed command called snap.
+The command will look like this:
+```
+snap install docker
+```
+Simple right? 
