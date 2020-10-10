@@ -2,7 +2,7 @@
 layout: post
 title:  "Blog_5"
 date:   2020-10-09 4:27:38 -0700
-categories: virtual machine ubuntu docker Dockerfile
+categories: virtual machine ubuntu docker
 ---
 
 Welcome back! This is Blog_5 and this week I will be talking about docker and Dockerfiles. So what is
@@ -58,7 +58,7 @@ the container we can also go back into it using:
 ```
 docker exec -it <name of container> bash
 ```
-Inside of there containers we can create LAMP stacks like we talked about i previous blogs or even
-experiment with other things.
-
-
+Inside of there containers we can create LAMP stacks like we talked about in previous blogs or even
+experiment with other things. I know I said I would talk about Dockerfiles but I think I will save that
+for next weeks Blog_6. I hope this helped give you a better understanding of how to use docker and I'll
+see ya next time.
