@@ -19,4 +19,46 @@ The command will look like this:
 ```
 snap install docker
 ```
-Simple right? 
+Simple right? Snap, like apt-get, will search it's libraries for the files we need to get docker up and
+running. Once it is finished, we will now be able to use the docker commands.
+
+Let's go over a few simple ones.
+```
+docker ps -a
+```
+This command will show us all the containers we currently have. The -a means it shows everything whether
+the container is running or stopped. Obviously if we run it now we the result would be pretty empty.
+
+We can make a container using the run command:
+```
+docker run -it --name <name of container> ubuntu:18.04 bash
+```
+There are a couple of extra options we've tacked onto it so let's breakdown the command. Right after the
+run command we have the option -it. This creates and interactable terminal for us to use when the
+container is created. After that we have --name which allows use to personally name the container. When a
+container is made without this option, docker will give a randomly generated name like affectione or
+golden_goose or some other silly name. It can be changed but it is much easier to name it now. Next we
+give it the OS to run. in our case Ubuntu 18.04. You can give it the latest version of Ubuntu and in this
+case I just used an older version because it is what I was using in a lab for my current class. At the
+end is bash which runs the bash command once the container is created.
+
+Once we do the run command we should automatically be put into our new container as root:
+
+![Docker container](https://i.imgur.com/v9tFqgY.png)
+
+In this I did a quick ls to show that the container has files within it already pre-installed.
+
+You can type "exit" to leave the container and return to your original terminal. If you ever need to
+stop the container for any reason we can use this command:
+```
+docker stop <name of container>
+```
+As well use the start command (just replace stop with start) to get it back running again. After exiting
+the container we can also go back into it using:
+```
+docker exec -it <name of container> bash
+```
+Inside of there containers we can create LAMP stacks like we talked about i previous blogs or even
+experiment with other things.
+
+
