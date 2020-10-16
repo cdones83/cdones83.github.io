@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Blog_6"
+date:   2020-10-16 4:29:38 -0700
+categories: virtual machine ubuntu docker dockerfile
+---
+Hi there and welcome back to my blog series! If you were here last week you will remember that I covered
+docker in my last post. I touched very briefly on images in that last post and how when spinning up a new
+container in docker it pulls from an image of Ubuntu when being created. Now with Dockerfiles we will not
+only be able to install a default Ubuntu for our container, but we can also do things such as have each
+new container come pre-installed with applications of our choice. With that let's get started with this
+week's blog.
+
+So we now know what a Dockerfile can do for us but what actualliy is it? A Dockerfile is simply a text
+file that we can create using nano or any other text editor of our choice. The command that we will be
+using to call on this file is as follows:
+```
+docker build -t <name of image> .
+```
+When breaking it down the -t let's us give a name to the image we are creating. At the end you will notice
+the "." which means that where ever we currently are in our files is where it will look for our
+Dockerfile. We can not have more than one Dockerfile per location. The file must also be named
+"Dockerfile" or else the command will give you an error. If you would like to have multiple Dockerfiles
+then you would have to put each one into another directory and call upon each path depending on which one
+you would like to create an image with. Alternatively you, could also just cd into the proper directory
+and stick with the command used above.
+
+Now let's talk about what goes into a Dockerfile. Below is a picture of an example Dockerfile from my
+recent lab.
+
+![Dockerfile example](https://i.imgur.com/ZIsKh5V.png)
