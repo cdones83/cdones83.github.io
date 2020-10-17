@@ -29,3 +29,31 @@ Now let's talk about what goes into a Dockerfile. Below is a picture of an examp
 recent lab.
 
 ![Dockerfile example](https://i.imgur.com/ZIsKh5V.png)
+
+All Dockerfiles start with FROM at the top. Essentially we are taking a base image and then adding onto
+it with whatever we would like it to download. In the case of the example above, It is pulling up an image
+of Ubuntu 18.04. Now below that is where we begin to have it download our desired applications. When doing
+so we use the RUN command as shown in the example above. After the base image is downloaded any command 
+following RUN will then be executed automatically. As it excutes our commands it is important to note
+that no user input will be possible. For any command that would have us input a yes, no, or anything else,
+we must have already put in something to cover that for us such as the -y option for the apt-get command.
+
+Below is a COPY command. Let's say there is a file that you would like to make change to in the new image
+but want it to already have been updated by the time you create a container. By using the COPY command, if
+you already have an updated version of the file, you can get it to replace the existing file in the target
+location of your choice when the container is created.
+
+Once the command has been run and if each step has completed without fail then you can run the following
+command:
+```
+docker run --rm -it <NAME OF IMAGE> /bin/bash
+```
+This will create a container with a random name since we didn't give it the option to name it manually as
+well as delete the container (that's the --rm option) once it has been exited.Opening it up you will be
+able to use any of the commands from the applications you had installed for the image you created. I
+believe I gave this xample in the last blog but again, this is very useful if you wanted to spin up
+multiple containers preinstalled and adjusted to have working LAMP stacks.
+
+That's it for Dockerfiles. That is more or less about as much as I know wbout them at the moment. As
+always I hope this helped you if you were also trying to figure out how they worked and I hope to see you
+in my next blog.
