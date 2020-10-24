@@ -22,3 +22,29 @@ possible combination until eventually it gets the correct sequence of letters an
 password. The longer your password is the more possible combinations there are.
 
 ![Password Hacking Chart](https://i.imgur.com/daXhN25.png)
+
+Above is a chart listing how long it would take someone to brute force your password. Using only numbers
+is dangerous. Anything less than 10 numbers is instant. It really only gets better past 15 numbers where
+the time it takes goes past a day and even that isn't very good. Your safest bet would be to use a
+combination of letters, numbers, symbols, as well as mixing both upper and lowercase letters. So let's
+focus on that last column. Personally, I like passwords that would take people years to get into. Even
+better if the amount of time it would take to get your password exceeds the average human's lifespan. At
+11 characters it is 400 years, but add one more character to that and it rockets to 34,000 years. A
+password is often one of the only means of protection people have for their account. If you choose to do
+this, then it might as well be as strong as possible.
+
+Another way, which may depend on the account your making, is multi-factor authentication (MFA). MFA
+combines two or more methods of account protection and requires all of them be verified before access to
+your account is given. This is becoming more widely accessible for most sites and is typically available
+for email accounts or things like bank accounts. This kind of protection means you rely on multiple
+protection such as a randomly generated password being sent to another device for you to put in as well
+as your regular password. You can link your acount to your phone for example and have a password sent to
+it when trying to log in. This is to make sure your account can't be acessed without your permission.
+Having multipe layers of protection is always a good thing when it comes to protecting your information.
+
+Those are just some simple tups to protect your account. Hopefully this helps you improve and keep your
+accounts safe. A common saying for IT is that it isn't a matter of how they get your info but when. For
+every protection we create a new way to get past it is made as well. So make sure you secure your things
+to best of your ability and I'll see you next week.
+pssword was weak and they broke it instantly. The account then sends a verification to your phone (which
+hopefully) you have on you and they won't be able to access.
