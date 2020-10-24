@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Blog_7"
+date:   2020-10-23 6:25:38 -0700
+categories: password security
+---
+Welcome back to my blog series for CIT 480. This is Blog 7 and if you remember last week we talked about
+Dockerfiles. This week I think I'll change course and talk about account security. This is known as
+hardening an account. Often the word "hardening" is used to refer to the various things people do to add
+extra security measures to an account, most typically a root account. Today I'll just talk about normal
+things you can do to keep your account protected. This doesn't apply to anything specific but account
+security is also big part of Computer Information Technology and it's importance should not be
+overlooked. Let's get started.
+
+So let's say you made an account for a new email. Your going to be using this email to recieve all your
+important and personal information, maybe from family, doctors or other places that may have access to
+your personal info. It would be bad if someone got access to your account and had all this sensitive
+information. The obvious thing to do, and what is required by almost everyone, is that the account has a
+password. What makes a good password though? Length for one thing. A way for people to gain access to
+your account is through method called brute forcing. Basically they have a program that puts in every
+possible combination until eventually it gets the correct sequence of letters and numbers that make your
+password. The longer your password is the more possible combinations there are.
+
+![Password Hacking Chart](https://i.imgur.com/daXhN25.png)
