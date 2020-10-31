@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Blog_8"
+date:   2020-10-30 6:57:38 -0700
+categories: virtual machine ubuntu
+---
+## Intro
+Welcome back to my series for CIT480! This week I will be talking about ansible.
