@@ -13,11 +13,13 @@ applications for our newly created container. I think I prefer using Dockerfile 
 base image, but it never hurts to know multiple ways to speed up an installation. Let's get started.
 
 ##Installing Ansible
-Hands down the easiest part in the whole process. A simple `apt` or `apt-get` command will get the job
-dones like so:
+Hands down the easiest part in the whole process. A simple `apt install` or `apt-get install` command
+will get the job done like so:
 
 ```
-apt ansible
+apt install ansible
 ```
 
+It's important to remember that when doing this we will have already created a container to run the file
+in. If you cannot remember how to make a container using Docker then you can always refer back to [Blog_5](https://cdones83.github.io/virtual/machine/ubuntu/docker/2020/10/09/Blog-5.html).
 
