@@ -2,7 +2,7 @@
 layout: post
 title:  "Blog_8"
 date:   2020-10-30 6:57:38 -0700
-categories: virtual machine ubuntu
+categories: ansible playbook
 ---
 ## Intro
 Welcome back to my series for CIT480! This week I will be talking about ansible. Now that I've done the
@@ -40,3 +40,40 @@ it ends with ".yml". You can use any editor of your choice as well. Now we can p
 file.
 
 ### Setting Up The YML File
+Below is an example of a file that installs `curl`.
+
+```
+---
+-hosts: 127.0.0.1
+ connection: localhost
+
+ tasks:
+  - name: Install curl
+    apt: name=curl state=present
+```
+All YML files begin with "---" at the top. below it is then host. Since we are using a container in docker
+we use 127.0.0.1. and our connection is localhost. Now we move onto tasks. Every task MUST have two spaces
+after it. This applies to any item that contains multiple levels. Ansible Playbook is very sensitive
+when it comes to indentation so be careful when creating your files. Tasks is the parent level. Every new
+task will begin with "name" which is on the next level. You can write out what the task is doing and when
+you run the playbook that is what it will say when working on that task. Next is the module we will be
+using for the task. In this case it is "apt". Since we are only installing curl we can put the name of
+the program we are installing on the same line as "apt". IT's followed by "state" which is the version
+of the program being installed. By saying "present" we are having it download the latest version.
+
+### Running the Playbook
+The command to run it is simple and goes as such:
+
+```
+ansible-playbook <NAME OF FILE>
+```
+From there it will first gather facts on the file. This means it is making sure everything is properly
+spaced and all commands within the file are valid. Then it will begin running your tasks. In this case it
+will only be installing curl so it won't take long. It doesn't give your a percent for where it currently
+is in the installation so just be patient, if it hasn't given you an error it is working on it. Now it
+should be finished and curl has been installed.
+
+### See Ya Next Time
+That's the basic of it. Maybe next time I'll talk about installing more and using lists but for basics
+this is enough to get you started. As always I hope this helped anyone struggling and feel free to tune in
+next week to read more helpful guides.
