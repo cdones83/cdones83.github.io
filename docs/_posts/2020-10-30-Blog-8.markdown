@@ -5,4 +5,18 @@ date:   2020-10-30 6:57:38 -0700
 categories: virtual machine ubuntu
 ---
 ## Intro
-Welcome back to my series for CIT480! This week I will be talking about ansible.
+Welcome back to my series for CIT480! This week I will be talking about ansible. Now that I've done the
+lab for my class, I have a better understanding of it and feel like I can properly talk about it. So as
+always, what is it? Remember Dockerfiles? Ansible is like that, except it's a separate installation and
+uses its own commands. With it we can create a file that automatically begins to download and setup
+applications for our newly created container. I think I prefer using Dockerfile just because we create a
+base image, but it never hurts to know multiple ways to speed up an installation. Let's get started.
+
+##Installing Ansible
+Hands down the easiest part in the whole process. A simple `apt` or `apt-get` command will get the job
+dones like so:
+
+```
+apt ansible
+```
+
