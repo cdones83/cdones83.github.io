@@ -7,7 +7,7 @@ categories: markdown syntax
 ## Intro
 Welcome back to my blog series! This week is gonna be a quick one but hopefully it will be very useful to
 anyone hoping to work on there markdown language skills. I've gone over a few things before such as code
-blocks and image posting. Today I'll go over a few more things to help make your pages (and hopefully
+blocks and image posting. Today I'll go over headings to help make your pages (and hopefully
 mine) look a little more professional. So let's get started.
 
 ### Headings
@@ -16,6 +16,9 @@ appealing to the eye. Even better is that it is super easy to do! Down below is 
 of the heading options.
 
 ![Table Image](https://i.imgur.com/PcyCKC8.png)
+
+It's important to remember that when using the `#` that there is a space right after it otherwise it will
+not read correctly and will result in plain text.
 
 Alternatively you could use `==` or `--` on the line below to create headings:
 
@@ -27,3 +30,7 @@ Heading 2
 ----------------
 ```
 
+### Conclusion and sidenotes
+It was a short one this week but as always I still hope this helps. Next time I'll be talking about a few
+of the things I've learned from doing AWS or Amazon Web Services. So look forward tot hat and see ya next
+time.
