@@ -13,8 +13,17 @@ mine) look a little more professional. So let's get started.
 ### Headings
 You might have noticed last week I started titling sections. Definitely makes these sections more 
 appealing to the eye. Even better is that it is super easy to do! Down below is a table showing a few
-of the heading options
+of the heading options.
 
-| Syntax | Output |
-| --------- -| --------- -|
-| *## Header 1* | ## Header 1 |
+![Table Image](https://i.imgur.com/PcyCKC8.png)
+
+Alternatively you could use `==` or `--` on the line below to create headings:
+
+```
+Heading 1
+================
+
+Heading 2
+----------------
+```
+
