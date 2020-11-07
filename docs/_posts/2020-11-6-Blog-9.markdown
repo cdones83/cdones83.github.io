@@ -15,6 +15,6 @@ You might have noticed last week I started titling sections. Definitely makes th
 appealing to the eye. Even better is that it is super easy to do! Down below is a table showing a few
 of the heading options
 
-|Syntax|Output|
-|----------|----------|
-\## Header 1
+| Synta x| Outpu t|
+| --------- -| --------- -|
+| \## Header 1 | ## Header 1 |
