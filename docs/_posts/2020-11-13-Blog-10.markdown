@@ -1,0 +1,86 @@
+--
+layout: post
+title:  "Blog_10"
+date:   2020-11-06 9:45:38 -0700
+categories: cyber attacks malware phishing man-in-the-middle
+---
+## Intro
+Welcome back to my blog series. If you recall in one of my last posts I talked about ways to strengthen
+your passwords. Today I will expand on that on talk a little more about cyber attacks. Updating your
+passwords was a way to protect your information from a form of cyber attack known as brute forcing where
+a program puts in multiple iterations of letters, numbers and symbols until it eventually matches your
+password. Today I will be talking about 3 other forms of cyber attacks: malware, phishing, and
+man-in-the-middle attacks.
+
+### Malware Attacks
+Malware is a shortend version of malicious software. As the name implies it is software designed to harm
+and/or steal information from your computer by abusing vulnerabilities in your network. There are
+different kinds of malware such as wroms, spyware, ransomware, etc and each one does something slightly
+different than the other. In general, malware is capable of blocking access to your system, can install
+programs without your knowledge and permission to steal data, and even send data from your hard drive to
+a third party.
+
+How and when does it attack you? Normally you will be targeted while browsing the internet. Malware can
+be installed into your machine if you were to click on a suspicious link or enter into an unsecure site.
+Many times hackers will create bots that will go into chats and resemble people talking and offering
+free prizes while posting links that actually downloads for malware. 
+
+How can you protect against it? While there is o 100% way to be safe from malware attacks, there are many
+things you can do to prevent yourself from becoming a victim. Installing anti-virus software is one way
+to protect yourself. Nowadays there are plenty of companies that provide free services to protect against
+multiple forms of malware. While their free services are not as strong as paid services, it is still
+better to have little protection than none at all. In a lot of cases they even provide a month of free
+trial for their paid services and it never hurts to take advantage of it when you can. Most of these
+anti-virus programs will come with preventive measures as well as scanning and quarantining programs in
+case your computer is already infected. Another way to protect yourself is by being wary of what you see
+online. Try not to click on links unless you are sure it is from a trusted source. When on websites, look
+for the verification marker indicating the the site you are on is safe and has been judged to be safe and
+secure. It looks like a little padlock next to the URL:
+
+![Verified site symbol](https://i.imgur.com/bQcQDY1.png)
+
+### Phishing Attacks
+Phishing is a type of attack that targets you through your emails. Spam mail is sometimes a kind of
+phishing. When you give your email to a company, sometimes that information is sold to others so that
+they can send you advertisements of their own products. Sometimes this information does not go to people
+with the best of intentions. These emails will either trick you into thinking you've won something so you
+click their link, or scare you by mimicking a trusted website or company while asking you for your
+information.
+
+How can you protect yourself? In most cases such as emails or on mobile phones, they will be designed to
+identify suspicious emails and messages and will categorize them as such. As is the case with malware,
+you can also download software to protect yourself from phishing attacks if you accidently open one up.
+Another way is multi-factor authentication requiring you to input a scurity code using a device that you
+personally have on you. Let's say you fell prey to a phsihing email and gave someone your password. By
+using MFA they now will not be able to access your account with just that. A notification should then
+be sent to your phone or other device letting you know someone is trying to access your account and it
+will guide you along the appropriate steps to resecure your information.
+
+### Man-in-the-Middle Attacks
+Man-in-the-middle (MITM) attacks are a kind of cyber attack that reroutes your normal connection to a
+fake website when you are trying to access a legitimate one. Most computers are so fast that when
+you input the name of site it loads up in less than a second after you hit the enter key. What we don't
+realize is that many steps have happened within those few nanoseconds to conect you to your designated
+site. MITM attacks happen in those tiny windows of opportunity by redirecting you to fake sites or sites
+you never intended to be on in the first place. These kinds of attaks are more likely to occur on public
+wifis where anyone is able to access the connection. Because public wifi lets anyone use it, it is
+naturally weaker in protection than a home or office connection. Your data is transferred over the
+connection in packets from one router to another until it reaches its destination. By accessing the
+public connection, the hackers now have a way to intercept your data and outright steal it or redirect
+it.
+
+One of the few ways you can protect yourself is by using a Virtual private network (VPN). VPNs mask your
+IP and can encrypt your data to keep it safe from hackers. Encrypting the data doesn;t mean it can't be
+stolen, but it does mean that the hacker will have a much harder time accessing the information even
+if they managed to get it. In this way, it also a good idea to use HTTPS sites to protect yourself from
+MITM attacks. HTTPS websites automatically data and prevent attackers from accessing communications of
+your device and their web services.
+
+### Conclusion
+Hope this helps you stay safe when browsing the internet. If you noticed, these kinds of attacks all
+work together to steal your data. Your first either fooled by a phishing attack or become a victim of
+MITM attacks. From there you forced with a malware and your information is put at risk. Just like these
+attacks work together and become stronger, so do your defenses and preventative measures when they are
+combined. Like I said earlier, there is no 100% protection against malware. But by using multiple safety
+measures we can greatly reduce the chance of malware or the effectiveness of malware. Stay safe and see
+ya in my next blog post!
