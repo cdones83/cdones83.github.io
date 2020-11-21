@@ -35,9 +35,70 @@ Alright, so like I said previously you do not move around the document using the
 use the letters h,j,k, and l to do the following:
 
 | Key | Movement |
-| ------ | ------ |
+| :------: | :------: |
 | h | Left one space |
 | j | Down one line |
 | k | Up one line |
 | l | Right one space |
 
+### Basic Editing
+To use editing commands you need to be in command mode. You use the letters to do a command and some
+will have a differnt function depending on whether or not you typed it as a lowercase or uppercase. You
+can also precede commands with a number to indicate how many you would like that comand to be done.
+Let's go over some basics.
+
+### Deleting
+IT IS NOT BACKSPACE. It is `x`. You maneuver your cursor onto the character you wish to delete. You hit
+`x` to delete it or add a number, for example: `3x`, to delete 3 characters. If you type it in as an
+uppercase x, then it will delete the character before the cursor like similar to a nomral backspaces
+function. You delete an entire word by moving to the first character in that word typing:
+```
+dw
+```
+ It also deletes the spaces following it. If you wish to delete an entire line then use:
+```
+dd
+```
+The cursor does not have to be at the beginning of the line. If you type in:
+```
+D
+```
+The it will delete everything from our cursors position to the end of the line you are currently on.
+
+### Replacing
+You can replace characters using `r`. Whatever your cursor is on it will replace said character upon
+typing in a replacement character. You can replace an entire word by placing the cursor at the first
+letter and using the command:
+```
+cw
+```
+You will now be in insert mode and can type your replacement word. It does not have to be of the same
+length as the previous word and you can hit ESC to go back into command mode. Replacing an entire line
+entails moving the cursor to the end of your target line and typing the command:
+```
+C
+```
+
+### Undoing Edits
+To undo an edit use lowcase `u`. Using uppercase will undo all the edits on a single line.
+
+### Saving and Quitting
+To save the file and quit the editor use the command:
+```
+zz
+```
+If you would simply like to save the document and continue using the editor, which is always 
+recommended, use the command:
+```
+:w
+```
+If you would liek to quit the document and discard the changes you have made then use the command:
+```
+:q!
+```
+
+### Conclusion
+These are the bsics of Vi editor. Personally it is too much for my taste. I can definitely see all the
+things you can do with it that make it more convenient once you get the hang of it. At the end of the
+day it is preference. That's it for this blog. I hope this helped anyone looking to learn how to use this
+editor. I'll see you again next week!
