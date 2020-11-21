@@ -1,0 +1,21 @@
+--
+layout: post
+title:  "Blog_11"
+date:   2020-11-20 9:45:38 -0700
+categories: text editor vim
+---
+## Intro
+Welcome back to my blog series for CIT480! Today I decided I will be talking about Vi, the text
+editor that is usualyl installed into Ubuntu by default. I honestly do not have much experience with
+Vi and install Nano almost every time I set up a new machine because it is so much easier. However,
+there are people who swear by Vi and today I will explain some basics about it and you can decide
+yourself which one it is you would prefer to use.
+
+### Vi - Getting Started
+First off open up the terminal. You can make a new directory or or just start creating files, it's up to
+you. I like to keep things organized so I'm just gonna make a new directory called Tutorial using the
+follow command:
+```
+mkdir Tutorial
+```
+Once inside we will use `vi <filename>`
