@@ -33,6 +33,7 @@ keyboard.
 ### Navigating the Doc
 Alright, so like I said previously you do not move around the document using the arrow keys. Instead you
 use the letters h,j,k, and l to do the following:
+
 | Key | Movement |
 | ------ | ------ |
 | h | Left one space |
