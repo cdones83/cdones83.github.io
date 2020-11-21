@@ -18,4 +18,25 @@ follow command:
 ```
 mkdir Tutorial
 ```
-Once inside we will use `vi <filename>`
+Once inside we will use `vi <filename>` to create a file. Name it whatever you like. Should a file with
+the same name already exist, it will instead open that file.
+
+### Vi Modes
+So Vi has two modes:
+* command mode
+* insert mode
+In command mode it is the letters that you use to move around the document, as opposed to the arrow
+keys. You will be in the mode by default but can enter it by hitting the ESC button. In insert mode you
+can begin typing words like a normal editor. In order to switch to insert mode press `i` on your
+keyboard.
+
+### Navigating the Doc
+Alright, so like I said previously you do not move around the document using the arrow keys. Instead you
+use the letters h,j,k, and l to do the following:
+| Key | Movement |
+| --- | --- |
+| h | Left one space |
+| j | Down one line |
+| k | Up one line |
+| l | Right one space |
+
