@@ -44,9 +44,38 @@ very convenient service that allows for much more flexibility than the tradition
 while costing you a fraction of the price.
 
 ## Cloud Service Models
-Ther are three different models provided by cloud computing:
-- infrastructure as a service (IaaS)
-- platform as a service (PaaS)
-- software as a service (SaaS)
+There are three different models provided by cloud computing:
+- Infrastructure as a Service (IaaS)
+- Platform as a Service (PaaS)
+- Software as a Service (SaaS)
 
+IaaS provides you with the building blocks for cloud IT meaning you have the most control of everything
+that is involved with the project from network features to storage space. Think of it as starting
+completely from scratch.
+
+PaaS takes care of managing the hardware and OS for you. This allows you to focus more on deploying and
+managing your applications.
+
+SaaS gives you a completed product. Everything is taken care of for you and you need to worryabout is
+how you are going to use it.
+
+## Cloud Deployment Models
+There are three different models in this case as well:
+- Cloud
+- Hybrid
+- On-premises
+
+Cloud deployment is when everything is done on the cloud. You have nore hardware of your own and
+everything is taken care of in one of the many data centers around the world.
+
+Hybrid is a case of you already having machines. You use the machines you already have and connect them
+to provide resources not contained within your cloud environment.
+
+On-premises is like traditional IT, but it also uses application management and virtualization to
+increase resource utilization.
+
+## Conclusion
+Thats a little bit about what the cloud is and its advantages over managin your own hardware. Again this
+is the last blog of the series and thank you to anyone who has read this. As always I hope this helped
+in understanding the cloud a little more and I wish you luck in all your endeavors.
 
