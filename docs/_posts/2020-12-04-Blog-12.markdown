@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Blog_12"
+date:   2020-12-04 9:00:38 -0700
+categories: AWS Cloud Computing
+---
+### Intro
+Welcome back to the last blog in my blog series for CIT480! This is the final one and it has been fun 
+making these but I am a little relieved this semester is coming to a close. This time around I will be
+talking about AWS or Amazon Web Services. This semester I was given the opportunity to enroll in the
+AWS Academy class and do many different modules relating to the various services that they provide. In
+this blog I will be talking about cloud computing and some of the things that the very first lesson
+goes over. As always I hope this helps anyone looking to understand it a little better and with that
+let's get into it.
+
+## What is Cloud Comptuing?
+Cloud computing is a service that provides the user with compute power, storage, and other various IT 
+resources through the internet. It is available whenever you need it and in some cases uses a
+pay-as-you-go model, meaning you are only charged for what you are using. Normally, if you would like to
+run the kind of services that they provide, you would need to have a lot of harware, space, and most
+likely man power to upkeep all the machines you are using. With cloud computing you are using someone
+else's server which are located in large data centers in different parts of the world. The way AWS puts
+it, it lets you think of infrastructure as a software rather than a hardware. This because everything
+you need to being running and managing projects can now be done from a screen and you are no longer
+responisble for maintaining the things mentioned above. Everything is at your fingertips.
+
+## Cloud vs Hardware Solution
+Let's go a little more in depth. The hardware solution would mean running it yourself. But what does
+that really mean? Like I mentioned before you own everything so you would need the hardware which is
+computers, servers, etc. Then you also need the space for all those machines. If you have all that, you
+to focus on keeping them in good shape which could mean several things, such as regular maintenance as
+well proper cooling for the machines, and maybe some staff to help out with all of that. It is a lot.
+The costs could easily go into the tens of thousands. It is also not dynamic, meaning you have to have
+a very good estimate of what you are using because you pay for what you have even if you are not using
+it. Or worse you under estimate and the workload surpasses what you are capable of. Cloud computing
+saves you money and solves your estimation problems. In cloud computing you do not have to mantain any
+of the above. No eltricity bills, maintenance fees, or paying for space to put everything because they
+take care of that for you. You are also given the option of paying only for what you use meaning it is
+dynamic. Having a slow month? Your not paying any extra for the power that is just sitting there. Or
+maybe its a great month and traffic triples! In a hardware solution you can't accomodate that 
+immediately. You would need more machines, then you have to install said machines and update them to get
+them on track. That can take days to weeks. With cloud computing all that can happen in seconds. It is a
+very convenient service that allows for much more flexibility than the traditional hardware service
+while costing you a fraction of the price.
+
+## Cloud Service Models
+Ther are three different models provided by cloud computing:
+- infrastructure as a service (IaaS)
+- platform as a service (PaaS)
+- software as a service (SaaS)
+
+
