@@ -4,7 +4,7 @@ title:  "Blog_12"
 date:   2020-12-04 9:00:38 -0700
 categories: AWS Cloud Computing
 ---
-### Intro
+## Intro
 Welcome back to the last blog in my blog series for CIT480! This is the final one and it has been fun 
 making these but I am a little relieved this semester is coming to a close. This time around I will be
 talking about AWS or Amazon Web Services. This semester I was given the opportunity to enroll in the
@@ -13,7 +13,7 @@ this blog I will be talking about cloud computing and some of the things that th
 goes over. As always I hope this helps anyone looking to understand it a little better and with that
 let's get into it.
 
-## What is Cloud Comptuing?
+### What is Cloud Comptuing?
 Cloud computing is a service that provides the user with compute power, storage, and other various IT 
 resources through the internet. It is available whenever you need it and in some cases uses a
 pay-as-you-go model, meaning you are only charged for what you are using. Normally, if you would like to
@@ -24,7 +24,7 @@ it, it lets you think of infrastructure as a software rather than a hardware. Th
 you need to being running and managing projects can now be done from a screen and you are no longer
 responisble for maintaining the things mentioned above. Everything is at your fingertips.
 
-## Cloud vs Hardware Solution
+### Cloud vs Hardware Solution
 Let's go a little more in depth. The hardware solution would mean running it yourself. But what does
 that really mean? Like I mentioned before you own everything so you would need the hardware which is
 computers, servers, etc. Then you also need the space for all those machines. If you have all that, you
@@ -43,7 +43,7 @@ them on track. That can take days to weeks. With cloud computing all that can ha
 very convenient service that allows for much more flexibility than the traditional hardware service
 while costing you a fraction of the price.
 
-## Cloud Service Models
+### Cloud Service Models
 There are three different models provided by cloud computing:
 - Infrastructure as a Service (IaaS)
 - Platform as a Service (PaaS)
