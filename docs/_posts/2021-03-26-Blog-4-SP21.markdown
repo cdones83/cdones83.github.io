@@ -20,7 +20,20 @@ that does not end with a a proper `;`. So let's go over it.
 In this Blog I will teach you how to print with Python and also talk about some of the pros of using
 this particular language.
 ```
-print ('This is the command to print a statement')
-
+print('This is the command to print a statement')
 ```
+First let's break it down. We start with `print`. As you probably guessed it is the command in python that
+let's us print within a set of  `( )`. inside of the parenthesis you need the `' '`(single quotes). When 
+you use this command, it is important to note that you cannot use the `" "`(double quotes). Other things
+to notice are the fact there is no space between `print` and the first `(` as well as the fact that the
+line does not end with `;`. If you are used to other languages, you know that they will not compile the
+code without `;` at the end of every line. Python was designed to be simpler and more forgiving and does
+not require it.
 
+Now just compile the code and run it to see the magic of your very first Python code!
+
+### End
+And that's it! This semester started off pretty rough for me and the general plan this time around will be
+to create these Blogs with short little tutorials on differnt subjects. As always I hope this gave you
+some basic insight into Python and I may even cover it more in another post! Anyway, hope to see you next
+time!
