@@ -4,10 +4,22 @@ title:  "Blog_04_SP21"
 date:   2021-03-26 9:00:38 -0700
 categories: Python Basic
 ---
-##Intro
+## Intro
 Welcome back to my Blog series! This is the first one I'm posting this semester even though it is
 technically number 4. A lot has happened but I am now mentally stable enough to remember that these
 are supposed to exist. Anyway enough about that... let's talk about Python!
 
 ### What is Python?
+Pythons are snakes, but this is not an animal blog. This is an IT blog. So for us Python, while named
+named after our scaly friend, is a programming language! In my own personal opinion, it is one of the
+easiest programming languages and most forgiving that I have had the pleasure of learning the basics to.
+It is much less strict than, let's say, JavaScript for instance which will shout at you for every line
+that does not end with a a proper ";". So let's go over it.
+
+### Printing with Python
+In this Blog I will teach you how to print with Python and also talk about some of the pros of using
+this particular language.
+```
+test
+```
 
