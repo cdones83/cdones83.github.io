@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Blog_04_SP21"
+date:   2021-03-26 9:00:38 -0700
+categories: Python Basic
+---
+##Intro
+Welcome back to my Blog series! This is the first one I'm posting this semester even though it is
+technically number 4. A lot has happened but I am now mentally stable enough to remember that these
+are supposed to exist. Anyway enough about that... let's talk about Python!
+
+### What is Python?
+
