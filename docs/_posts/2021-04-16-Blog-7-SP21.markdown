@@ -9,6 +9,8 @@ Alright Blog 7! Missed a few blogs in between but that's fine! Everything's prob
 I'll be talking about creating a website using HTML. For this we will be using a free site called
 [glitch.com](https://glitch.com).
 
+![glitch](https://i.imgur.com/Z6aFKqF.png)
+
 ### Making a site
 Luckily this site is free and you can sign up by going to the upper-right corner of the screen. Once your
 account has been created we can begin creating projects!
