@@ -32,3 +32,23 @@ like this:
 Let's walk through the code a little. At the very top you will notice `<!DOCTYPE html>`. This tells the
 browser that the page is being displayed using HTML as its coding language. The page will always start
 with this before anything else.
+
+Now let's talk about some of the tags used in creating the site. First we have the opening tag `<html>`.
+All tags have an opener and a closing tag that denotes where it ends. The closing tag is similar to the
+opening tag with the exception that it uses `/` at the start: `</html>`, as shown for closing html tag.
+Everything for the page will be enclosed within the html tag. Within the opener tag there is some extra
+code stating the the page is being displayed in English.
+
+Every new section is indented 2 spaces from the previous one. So now the next section is `<head>` Within
+the head section of the page is where you will put links to access resources that your page will call on.
+By default we can leave the meta tags untouched. The title tag shows you will display on the tab at the
+top of your browser. Under the title tag are links to your other resources located on the left side of the page under assets.
+
+From there we move on to the body tag. All your paragraphs and everything else that displays on the page
+will be found within this tag. When creating paragraphs you use the tag `<p>` to denote its start and
+finish it off with `</p>`. Sectioning off you code like this will make it easier when you begin using CSS
+which will affect how the site looks.
+
+### Conclusion
+FOr now that's all. This covers the basics of setting up a site. Next time I'll get into actually
+adjusting and creating more things on the site. See you next time!
