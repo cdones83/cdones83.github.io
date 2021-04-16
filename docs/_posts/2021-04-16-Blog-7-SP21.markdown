@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Blog_7_SP21"
+date:   2021-04-16 3:25:38 -0700
+categories: HTML
+---
+## Intro
+Alright Blog 7! Missed a few blogs in between but that's fine! Everything's probably fine...anyway! Today
+I'll be talking about creating a website using HTML. For this we will be using a free site called
+[glitch.com](glitch.com).
