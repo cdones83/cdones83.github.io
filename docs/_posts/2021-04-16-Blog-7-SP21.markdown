@@ -9,8 +9,26 @@ Alright Blog 7! Missed a few blogs in between but that's fine! Everything's prob
 I'll be talking about creating a website using HTML. For this we will be using a free site called
 [glitch.com](https://glitch.com).
 
-![glitch](https://i.imgur.com/Z6aFKqF.png)
+![glitch](https://i.imgur.com/yssM8zE.png)
 
 ### Making a site
 Luckily this site is free and you can sign up by going to the upper-right corner of the screen. Once your
-account has been created we can begin creating projects!
+account has been created we can begin creating projects! Click on the new project button next to your
+profile pic in the top right corner and select the hello-webpage template. The page should now look
+something like this:
+
+![Project page](https://i.imgur.com/ngNRpj9.png)
+
+On the left side of the screen look at the assets and click on the index.html. This is where most of your
+code for the site will be.
+
+![index](https://i.imgur.com/uf1nKM9.png)
+
+Above is what should be showing on the screen for your first project. For the actual site it will look
+like this:
+
+![website](https://i.imgur.com/Sinx4HB.png)
+
+Let's walk through the code a little. At the very top you will notice `<!DOCTYPE html>`. This tells the
+browser that the page is being displayed using HTML as its coding language. The page will always start
+with this before anything else.
