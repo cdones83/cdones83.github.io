@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Blog_8_SP21"
+date:   2021-04-23 10:25:38 -0700
+categories: HTML
+---
+## Intro
+Welcome back to my blog series! Alright Last time I talked about the basics of making a website using on
+[glitch.com](https://glitch.com). Today I will be talking about how I am building my own webpage that
+will be used on one of my projects. Let's get started!
+
+### Grab some paper and pencils
+Before even getting into the code you should have a general idea of what you want the site to look like.
+For this I recommened good 'ol fashion pencil paper. If you really want you can also do it on the fly,
+but it never hurts to get your thoughts down on paper before you get started. There may be times where
+you do not accomplish everything in one sitting. Maybe you had a great idea but forgot what exactly it is
+you wanted to do if you took a break and came back to the project. It is also nice get the general design
+down on paper to see if that's what you really want it to look like. It is a terrible thing to do all
+these different things to get the code the way you want it, only to look at the finished product and
+think it's ugly so time to delete it all and start over.
+
+For my site, I like having navigation bars up top that stay on the screen for easy access of moving
+around the different sections of the site. From that alone I can already tell I will be using the tag
+`<nav>`. In this case I want two buttons: the first button will essentially bring the user to the top of
+the page where a description of the project is as well as my team name for the project, while the second
+button will go down to a section for the group members. That section will most like just have our names
+and roles but I will still work that out. For now that's a decent setup, so let's talk about the code.
+
+###  How to Start
+So when starting on your page its good to go from top to bottom. So as I said before I will start with my
+navigation bar and work my way down. In this I will be talking very little about css, which is the code
+we use to make everything look pretty and neat. This is gonna be just the bare bones for now, with ugly
+default html.
+
+First notice on the index page we have to links:
+![links](https://i.imgur.com/WYb6vel.png)
+
+The top link connects your page to the styke sheet where all your css goes. The second link is all your
+JavaScript. These will be important later and I will talk about it in another blog.
+
+To begin, all of our code for the page will go into the `<body>` tag. I like to use comments using
+`<!-- This is a comment example -->`. It is good practice to comment your code as you go to let you or
+someone else who might be working on the project know what each piece does. I placed  a `<nav>` tag which
+is like a section tag which does exactly as it you think it does, it designates everything within it as
+part of a specific section. The nav tag is specifically used for site navigation code.
+
+![nav code](https://i.imgur.com/Dtov319.png)
+
+Within the nav tag I use `<a>` tags which are used for hyperlinks. The references point towards the
+sections I named but they have not yet been created, so these technically do nothing. After the reference
+it is the actual text that becomes the link. You might be wondering why not use buttons? I personally
+think it looks nicer to make a text and stylize it by giving it a border and converting the entire thing
+into a button.
+
+Next I have my a `<header>` tag and within it `<div>` tag. The header is for header sections that are
+usually at the top of the page. The div tag adds sections to you sections! Even though this part will
+only have one section it is nice to put these in case you want to give it a class so you can stylize the
+entire thing later with css. The `<h1>` and <'<h2>` tags are title fonts. Generally 1 is the biggest and
+boldest and everything after gets smaller. When using headers it is considered bad practice to go back
+to a higher header after already using a lower one. For example if I started with h2 and then used h1.
+Last in the part is the `<p>` tag for paragraphs. This makes sure that all the text within it is
+considered text. I believe you can also type without it and it will default to text, but again, that is
+bad practice.
+
+### Conclusions and Cliff Hangers
+Alright, that's the first section done! Next time I will go over the table I'm making and the main
+section within the body tag. Look forward to it and see you next time!
+
+### Conclusion
+Alright that is enough for now. This goes
