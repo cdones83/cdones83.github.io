@@ -66,5 +66,3 @@ bad practice.
 Alright, that's the first section done! Next time I will go over the table I'm making and the main
 section within the body tag. Look forward to it and see you next time!
 
-### Conclusion
-Alright that is enough for now. This goes
