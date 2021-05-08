@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Blog_8_SP21"
-date:   2021-04-23 10:25:38 -0700
+title:  "Blog_10_SP21"
+date:   2021-05-07 10:25:38 -0700
 categories: HTML
 ---
 ## Intro
@@ -28,3 +28,33 @@ FOr example:
 </table>
 ```
 That would create a very basic table. From here we will go over some css.
+
+### CSS
+To begin we got the style.css file located to the left in the area under the index.html. Coding in this
+area requires that we use both `{}` and `;`. To start applying styles to parts of our page we need to
+specify which tag and in this case we will be updating the table. The code to start will look like this:
+```
+table {
+
+}
+```
+In my case I am creating two tables that are side by side. I increase the width to 50% and the code will
+look like this:
+```
+table {
+	width: 50%;
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+```
+I gave it a border with a solid line underneath the width modifier. The border-collapse will make sure 
+that if two data points both get a border on the same side it will merge into one single border. By 
+default it will not merge the border and have two separate lines show up on the table. The padding makes
+it so that there is space in each cell. We can do same thing with each other element in the tables
+such as the rows and headers and all the cells.
+
+### Conclusion
+And that's a few basics into making the table and the css behind making it look better. You can add color
+move the position and increase the size of everything if you wanted. As always hope this helped a little.
+Good luck with everything you do! See ya around.
