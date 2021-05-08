@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Blog_8_SP21"
+date:   2021-04-23 10:25:38 -0700
+categories: HTML
+---
+## Intro
+Alright last blog in the series! It has definitely been a semester... my mind has been everywhere and
+definitely not on these. I doubt a lot of people ever really came to this to learn, but hey, if your that
+1%, I appreaciate you and in this last blog we will go over that website I was working on!
+
+### Tables
+So tables may seem complicated at first but are very easy to create. First we start with `<table>` tag.
+Go down to the next line and make sure you indent as is the proper way. For every row created we use the
+tag `<tr>`. Starting with the header we move on to the next line and use `<th>` tag which is the header
+portion of the table. All foloowing rows will all use `<tr>` but all data columns wll use the tag `<td>`.
+FOr example:
+```
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Value</th>
+	</tr>
+	<tr>
+		<td>SOME COMPANY</td>
+		<td>SOME VALUE</td>
+	</tr>
+</table>
+```
+That would create a very basic table. From here we will go over some css.
